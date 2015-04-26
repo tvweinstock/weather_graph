@@ -1,0 +1,11 @@
+{
+  "name": "thirtycountries",
+  "version": "0.0.0",
+  "description": "d3 travel chart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
