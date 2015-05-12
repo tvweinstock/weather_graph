@@ -8,13 +8,28 @@
 <body>
   
   <div class="container">
-    <svg class="main">
-      
+    <svg id="main" width="600">
+      <g>
+        <rect width="200" height="40"></rect>
+        <text x="10" y="22"> Mean Stack 1 </text>
+        <text x="180" y="22"> 4 </text>
+      </g>
+      <g transform="translate(0,40)">
+        <rect width="300" height="40"></rect>
+        <text x="10" y="22"> Mean Stack 2 </text>
+        <text x="280" y="22"> 6 </text>
+      </g>
+      <g transform="translate(0,80)">
+        <rect width="450" height="40"></rect>
+        <text x="10" y="22"> Mean Stack 3 </text>
+        <text x="430" y="22"> 8 </text>
+      </g>
+
     </svg>
-    <p>  ssdfsdddddd sdfsdf and yesss</p>
   </div>
 
 <script type="text/javascript" src="bower_components/d3/d3.js"></script>
+<script type="text/javascript" src="bower_components/lodash/lodash.js"></script>
 <script type="text/javascript" src="dist/scripts/app.js"></script>
 
 </body>

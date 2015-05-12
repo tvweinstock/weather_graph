@@ -2,7 +2,11 @@
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 10px; }
 
-div {
-  padding: 10px;
-  margin: 100px;
-  color: black; }
+body {
+  background: #4b4b4b; }
+
+#main rect {
+  fill: #222; }
+
+#main text {
+  fill: #fff; }
