@@ -22,17 +22,25 @@ function draw(data) {
     return d.city;
   }));
 }
-var data = [{
-  "city": "Toronto",
-  "temp": 20
-}, {
-  "city": "Ottawa",
-  "temp": 15
-}, {
-  "city": "San Mateo",
-  "temp": 20
-}, {
-  "city": "Paris",
-  "temp": 25
-}];
-draw(data);
+var cityWeather = 'http://api.openweathermap.org/data/2.5/group?id=6094817,5392423,6167865,2988507&units=metric';
+$.get(cityWeather, function(weather) {
+  var response = weather;
+  var ottawaTemp = response.list[0].main.temp;
+  var sanMateoTemp = response.list[1].main.temp;
+  var torontoTemp = response.list[2].main.temp;
+  var parisTemp = response.list[3].main.temp;
+  var data = [{
+    "city": "Toronto",
+    "temp": torontoTemp
+  }, {
+    "city": "Ottawa",
+    "temp": ottawaTemp
+  }, {
+    "city": "San Mateo",
+    "temp": sanMateoTemp
+  }, {
+    "city": "Paris",
+    "temp": parisTemp
+  }];
+  draw(data);
+});
