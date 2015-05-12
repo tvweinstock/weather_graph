@@ -5,8 +5,8 @@
 body {
   background: #4b4b4b; }
 
-#main rect {
+.main rect {
   fill: #222; }
 
-#main text {
+.main text {
   fill: #fff; }
