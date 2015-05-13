@@ -1,13 +1,13 @@
-##Graph of places I'd like to visit with flight cost comparison
+##Graph of the weather in the cities where my family lives
 
-A D3 data vis of my vacation wish list. There's so many places to go, so I'm building this tool to help me reach the 30 countries under 30 goal!
+A D3 data vis of the weather in Ottawa, Toronto, San Mateo and Paris. My family is a little spread out at the moment, but there are loads of ways technology can bring us closer together. One glance at this graph and you can see how the weather is treating everyone.
 
 ##What is this?
 
-D3 has a reputation for having a steep learning curve, I want to scale the curve with this project. I am going to chart the places I want to visit and compare them with flight costs obtained from the [QPX Express API](https://developers.google.com/qpx-express/).
+D3 has a reputation for having a steep learning curve, I want to scale the curve with this project. I am going to chart the weather in the cities where my immmediate family lives with the help of the [Open Weather Map API](http://openweathermap.org/).
 
 ##My Tools
 
-Built with JavaScript, D3 and the QPX API. Plus my old friend, Sass and new buddy Gulp.
+Built with JavaScript, D3 and the Open Weather Map API. Plus my old friend, Sass and new buddy Gulp.
 
 
